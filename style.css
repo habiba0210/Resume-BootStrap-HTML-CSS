@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+}
+
+.parent{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.head{
+    background-color: rgb(221, 221, 222);
+}
+.top-container{
+    height: 110px;
+}
+.name{
+    margin-top: 15px;
+}
+.addr-section{
+    margin-top: 7px;
+    margin-bottom: 2px;   
+}
+/*main content*/
+.main-content{
+    margin-top: 30px;
+}
+
+h4{
+    border-left: 4px solid rgb(202, 199, 199);
+    padding: 7px;
+}
+.sum-section{
+    border: 1px solid grey;
+}
+.skills-section{
+    border: 1px solid grey;
+}
+
+p{
+    margin-top: 7px;
+    margin-bottom: 2px; 
+    font-size: 15px;
+}
+.exp{
+    margin-top: 50px;
+}
+li{
+    font-size: 14px;
+}
+
+@media(max-width: 1000px){
+    .top-container{
+        width: 100%;
+        position: relative;
+    }
+    .main-content{
+        width: 100%;
+        position: relative;
+    }
+    }
